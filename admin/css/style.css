@@ -1,0 +1,17 @@
+
+div header div nav a{
+    color: #d79254;
+    text-decoration: none;
+}
+a:hover{
+    color: #C1834B;
+}
+
+
+.btn-warning{
+    color: white;
+}
+
+.btn-warning:hover{
+    color: white;
+}

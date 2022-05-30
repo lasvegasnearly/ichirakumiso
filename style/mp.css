@@ -1,0 +1,181 @@
+
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+} 
+
+/* index page */
+
+
+.banner-image{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./../img/IchirakuMiso-elements/restaurant.jpg");
+    background-size: cover;
+}
+
+.categories{
+    padding: 1% 0;
+}
+
+.plats-menu{
+    background-color: #ececec;
+    padding: 1% 0;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+.card{
+    margin: 0 auto;
+    float: none; 
+    margin-bottom: 5%;   
+     transition: 0.5s;
+}
+
+.card:hover{
+     transform: translateY(-10px);
+}
+
+.float-text{
+    position: absolute;
+    bottom: 50px;
+}
+
+.carter-one{
+    font-family: 'Carter One', cursive;
+    color: whitesmoke;
+    font-size: x-large;
+}
+
+.raleway{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+}
+
+.pos-text{ 
+    margin-left: 18%;      
+    margin-right: 18%;
+    width: auto;
+}
+
+.plats-menu-box{
+    width: 40%;
+    margin: 1%;
+    padding: 2%;
+    float: none;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.plat-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.plat-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.img-fluid{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.plat-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.plat-details{
+    padding: 5px;
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+/*  order page  */
+
+
+.order-bg{
+    background: rgba(0, 0, 0, 0.6)url(../img/IchirakuMiso-elements/pexels-mart-production-7706581.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+    background-blend-mode: darken; 
+}
+
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;     
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.img-curve{
+    border-radius: 15px;
+}
+
+.grape-nuts{
+    font-family: 'Grape Nuts', cursive;
+}
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+/* category_plats page */
+
+
+.banner-category-plats{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)),url("./../img/IchirakuMiso-elements/bg_category_plats.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.banner-plats{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.7)),url("./../img/IchirakuMiso-elements/entrain_de_preparation_des_plats.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
